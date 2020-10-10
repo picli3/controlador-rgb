@@ -1,0 +1,8 @@
+*cache.lib
+*bak
+fp-info-cache
+*bck
+*.zip
+*.rar
+*.xml
+sym-lib-table

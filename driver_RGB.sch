@@ -1,0 +1,118 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4500 3350 800  650 
+U 5F7D0198
+F0 "RED" 50
+F1 "RED.sch" 50
+F2 "RED" I R 5300 3650 50 
+$EndSheet
+$Sheet
+S 4500 2450 800  650 
+U 5F7D4541
+F0 "GREEN" 50
+F1 "GREEN.sch" 50
+F2 "GREEN" I R 5300 2750 50 
+$EndSheet
+$Sheet
+S 4500 4250 800  650 
+U 5F7D85DB
+F0 "BLUE" 50
+F1 "BLUE.sch" 50
+F2 "BLUE" I R 5300 4550 50 
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5F7DC1B3
+P 6950 3550
+F 0 "J1" H 7030 3542 50  0000 L CNN
+F 1 "OUT" H 7030 3451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 6950 3550 50  0001 C CNN
+F 3 "~" H 6950 3550 50  0001 C CNN
+	1    6950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR01
+U 1 1 5F7DC7EC
+P 6650 3200
+F 0 "#PWR01" H 6650 3050 50  0001 C CNN
+F 1 "+12V" H 6665 3373 50  0000 C CNN
+F 2 "" H 6650 3200 50  0001 C CNN
+F 3 "" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3200 6650 3450
+Wire Wire Line
+	6650 3450 6750 3450
+Wire Wire Line
+	6750 3550 5950 3550
+Wire Wire Line
+	5950 3550 5950 2750
+Wire Wire Line
+	5950 2750 5300 2750
+Wire Wire Line
+	5300 3650 6750 3650
+Wire Wire Line
+	6750 3750 5950 3750
+Wire Wire Line
+	5950 3750 5950 4550
+Wire Wire Line
+	5950 4550 5300 4550
+$Comp
+L Connector:Jack-DC J2
+U 1 1 5F7C8828
+P 1350 1200
+F 0 "J2" H 1407 1525 50  0000 C CNN
+F 1 "Jack-DC" H 1407 1434 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 1400 1160 50  0001 C CNN
+F 3 "~" H 1400 1160 50  0001 C CNN
+	1    1350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR014
+U 1 1 5F7CA14A
+P 1800 1000
+F 0 "#PWR014" H 1800 850 50  0001 C CNN
+F 1 "+12V" H 1815 1173 50  0000 C CNN
+F 2 "" H 1800 1000 50  0001 C CNN
+F 3 "" H 1800 1000 50  0001 C CNN
+	1    1800 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1000 1800 1100
+Wire Wire Line
+	1800 1100 1650 1100
+$Comp
+L power:GND #PWR015
+U 1 1 5F7CAF82
+P 1800 1400
+F 0 "#PWR015" H 1800 1150 50  0001 C CNN
+F 1 "GND" H 1805 1227 50  0000 C CNN
+F 2 "" H 1800 1400 50  0001 C CNN
+F 3 "" H 1800 1400 50  0001 C CNN
+	1    1800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1400 1800 1300
+Wire Wire Line
+	1800 1300 1650 1300
+$EndSCHEMATC
