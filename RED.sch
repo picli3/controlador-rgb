@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Driver RGB"
+Date "2020-12-19"
+Rev "V.1.0.0"
+Comp "PCB Profesional"
+Comment1 "https://maykolrey.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
